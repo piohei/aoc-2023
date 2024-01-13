@@ -1,0 +1,55 @@
+y = ax + b
+
+py = a * px + b
+py + vy = a * (px + vx) + b
+
+b = py - a * px
+b = py + vy - a * (px + vx)
+
+py - apx - py - vy + apx + avx = 0
+-vy + avx = 0
+avx = vy
+a = vy / vx
+
+
+b = y - ax
+
+b = py - (vy / vx) * px
+
+
+
+
+
+
+py + vy - a * (px + vx) - py + a * px = 0
+py - py - apx + apx - avx + vy = 0
+
+vy = a * vx
+
+a = vx / vy
+
+b = py - vx / vy * px
+
+
+
+
+
+y = a1x + b1
+y = a2x + b2
+
+a1x + b1 - a2x - b2 = 0
+
+x (a1 - a2) + (b1 - b2) = 0
+
+x = b2 - b1 / (a1 - a2)
+
+
+
+a1 / b1 - a2 / b2 = (a1b2 - a2b1) / b1b1
+
+
+
+a1x + b1 = a2x + b2
+
+a1x - a2x = b2 - b1
+x = (b2 - b1) / (a1 - a2)
